@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam form </title>
+</head>
+<body>
+    <form name="myform" action="/home/student/s_tybcs/webtech/nextpage.txt" method="post">
+        <h3>Enter Your Information</h3>
+    <ul>
+        <li><h4>Enter your name:</h4>
+            <input type="text" size="30" placeholder="enter your name"><br>
+        </li>
+        <br>
+        <li>
+            Enter Your address: <br>
+            <textarea name="add" cols="30" rows="10" value="enter your address here">
+            </textarea>
+        </li>
+        <li>
+           <h4> Your age is between: </h4><br>
+            <input type="radio" name="age" value="1" checked>select <br>
+            <input type="radio" name="age" value="2">15-20<i>yrs</i><br>
+            <input type="radio" name="age" value="3">20-25<i>yrs</i> <br>
+            <input type="radio" name="age" value="4"> 25-<i>yrs and above</i><br>
+        </li>
+        <br>
+        <li>
+           <h4>Your habbits:</h4> <br>
+            <input type="checkbox" name="option" value="read">Reading books<br>
+            <input type="checkbox" name="option" value="write">Writting<br>
+            <input type="checkbox" name="option" value="sing">Singing<br>
+            <input type="checkbox" name="option" value="game">playing games<br>
+        </li>
+        <br><br>
+        <li>
+            <h4>Select Your city:</h4>
+            <select name="dropdown">
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="satara">Satara</option>
+                <option value="delhi">Delhi</option>
+            </select>
+        </li>
+    </ul>
+    <input type="submit" name="button" value="Submit data">
+    <a href="/home/student/s_tybcs/webtech/nextpage.txt"><u><i>Next here...</i></u></a>
+    
+    </form>
+</body>
+</html>
