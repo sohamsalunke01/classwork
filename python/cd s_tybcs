@@ -1,0 +1,6 @@
+import pandas as pd
+company=['Tata','Mg','kIA','hyunda']
+modal=['Nexon','Aster','saltos','creta']
+data=list(zip(company,modal,year))
+df=pd.Datafram(data,columns=['company','modal','year'])
+print(df)
